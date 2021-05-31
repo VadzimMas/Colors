@@ -1,17 +1,27 @@
+body {
+    text-align: center;
+}
+.colors {
+    border: 10px dashed dodgerblue;
+    background-color: tomato;
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    font-size: 5vw;
+}
 .container {
     border: 20px solid dodgerblue;
-    background-color: rgba(84, 143, 35, 0.767);
-    padding: 20px;
-    margin: 20px;
+    background-color: lightgray;
+    padding: 1%;
+    margin: 1%;
     color: white;
-    text-align: center;
 }
 .row {
     border: 10px solid slateblue;
     background-color: #fff;
     padding: 1%;
     margin: 1%;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
 }
 .row-1 {
@@ -70,8 +80,9 @@ span:active {
     background-color: dodgerblue;
     padding: 1%;
     margin: 1%;
-    font-size: 45px;
+    font-size: 3vw;
     transition: 0.3s;
+    color: #fff;
 }
 .title:hover {
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.425), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.425);
